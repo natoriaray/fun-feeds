@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: flex;
+	background: black;
+	height: 100px;
+	align-items: center;
+}
+
+h1 {
+	color: yellow;
+	padding-left: 20px;
+}
+
+.container {
+	display: grid;
+}
+
+.page-links {
+	margin: 10px;
+}
+
+ul {
+	width
+}
