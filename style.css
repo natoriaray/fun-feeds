@@ -10,13 +10,13 @@ header {
 	height: 100px;
 	align-items: center;
 	justify-content: space-between;
+	padding: 18px;
 }
 
 .left-head {
 	display: flex;
 	height: 100px;
 	align-items: center;
-	margin-left: 10px;
 }
 
 a {
@@ -24,7 +24,7 @@ a {
 }
 
 .drop-menu-btn {
-	font-size: 56px;
+	font-size: 64px;
 	padding: 16px;
 }
 
@@ -40,25 +40,27 @@ h1 {
 .right-head {
 	display: flex;
 	align-content: center;
-	padding: 26px;
+	padding: 10px;
 }
 
 .search-btn {
-	font-size: 40px;
+	font-size: 64px;
+	padding-top: 8px;
 }
 
 .profile-btn {
-	font-size: 40px;
+	font-size: 64px;
 	margin-left: 20px;
+	padding-top: 8px;
 }
 
 .sign-in-btn {
 	text-decoration: none;
 	background-color: rgb(253, 215, 0);
 	color: white;
-	font-size: 24px;
-	padding: 8px 20px 5px 20px;
-	border-radius: 40px;
+	font-size: 36px;
+	padding: 20px 45px 8px 45px;
+	border-radius: 60px;
 	font-weight: bold;
 	margin-left: 20px
 }
