@@ -1,18 +1,66 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: 'Noto Sans'
 }
 
 header {
 	display: flex;
-	background: black;
+	background: white;
 	height: 100px;
 	align-items: center;
+	justify-content: space-between;
+}
+
+.left-head {
+	display: flex;
+	height: 100px;
+	align-items: center;
+	margin-left: 10px;
+}
+
+a {
+	color: gray;
+}
+
+.drop-menu-btn {
+	font-size: 56px;
+	padding: 16px;
 }
 
 h1 {
-	color: yellow;
-	padding-left: 20px;
+	display: inline-block;
+	color: black;
+	font-family: 'Permanent Marker';
+	font-size: 60px;
+	margin-left: 26px;
+	padding-bottom: 10px;
+}
+
+.right-head {
+	display: flex;
+	align-content: center;
+	padding: 26px;
+}
+
+.search-btn {
+	font-size: 40px;
+}
+
+.profile-btn {
+	font-size: 40px;
+	margin-left: 20px;
+}
+
+.sign-in-btn {
+	text-decoration: none;
+	background-color: rgb(253, 215, 0);
+	color: white;
+	font-size: 24px;
+	padding: 8px 20px 5px 20px;
+	border-radius: 40px;
+	font-weight: bold;
+	margin-left: 20px
 }
 
 .container {
@@ -24,5 +72,4 @@ h1 {
 }
 
 ul {
-	width
 }
