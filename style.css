@@ -65,13 +65,32 @@ h1 {
 	margin-left: 20px
 }
 
-.container {
-	display: grid;
+.side-nav {
+	height: 100%;
+	width: 0;
+	position: fixed; /* Stay in place */
+	z-index: 0; /* Stay on top */
+	top: 0; /* Stay at the top */
+	left: 0;
+	background-color: black; 
+	overflow-x: hidden; 
+	padding-top: 10px;
+	transition: ;  
 }
 
-.page-links {
-	margin: 10px;
+.side-nav a {
+	text-decoration: none;
+	font-size: 56px;
 }
 
-ul {
-}
+#overlay {
+	position: fixed; 
+	display: none; 
+	width: 0; 
+	height: 100%; 
+	top: 0; 
+	left: -500;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5); 
+	}
